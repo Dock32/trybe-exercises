@@ -2,8 +2,11 @@ O que eu vou aprender na Trybe:
 
 - Unix
 - Bash
+ trybe-skills-updates
+=======
 - Git
 - HTML
 - CSS
 - Python
 - SQL
+ master
