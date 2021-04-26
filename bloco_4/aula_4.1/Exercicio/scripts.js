@@ -97,4 +97,63 @@ switch (pecaXadrex) {
             break;
 }
 
-/*exercicio 7*/
+/*exercicio 7*/ 
+
+let nota = 100;
+
+if (nota < 0 || nota > 100) {
+    console.log('Erro');
+}
+    else 
+        if (nota >= 90) {
+    console.log('A');
+    }
+        else 
+            if (nota >= 80) {
+            console.log('B');
+        }
+            else 
+                if (nota >= 70) {
+                console.log('C');
+            }
+                else 
+                    if (nota >= 60) {
+                    console.log('D');
+                }
+                    else 
+                        if (nota >= 50) {
+                        console.log('E');
+                    }
+                        else { 
+                            console.log('F');
+    
+}
+
+/*exercicio 8*/ 
+
+let namber = 3;
+let namber2 = 3;
+let namber3 = 3;
+
+if(namber && namber2 && namber3 %2 === 0) {
+    console.log('True');
+}
+    else{
+        console.log('False');
+    }
+
+/*exercicio 9*/ 
+
+let namberA = 5;
+let namberB = 5;
+let namberC = 3;
+
+if(namberA && namberB && namberC %2 !== 0) {
+    console.log('True');
+}
+    else{
+        console.log('False');
+    }
+
+/*exercicio 10*/ 
+
