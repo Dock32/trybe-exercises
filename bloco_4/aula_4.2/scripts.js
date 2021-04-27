@@ -55,6 +55,22 @@ let menor = numbers3[0];
     };
     console.log('Menor valor: ' + menor);
 
-    /*exercicio 8*/
+/*exercicio 8*/
 
-    
+let list = []; 
+
+for(let index = 0; index < 25; index +=1){
+    list.push(index);
+}
+console.log(list)
+
+/*exercicio 9*/
+
+let lista = [0,  1,  2,  3,  4,  5,  6,  7,
+    8,  9, 10, 11, 12, 13, 14, 15,
+   16, 17, 18, 19, 20, 21, 22, 23,
+   24];
+
+for (let index =0; index < lista.length; index +=1){
+    console.log(lista[index] /2)
+}
