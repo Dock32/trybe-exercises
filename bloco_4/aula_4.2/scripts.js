@@ -16,3 +16,45 @@ else{
 
 };
 
+/*exercicio 5*/
+
+let numbers1 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+var maxNumber = numbers1.reduce(function(a, b) {
+    return Math.max(a, b);
+});
+    console.log(maxNumber);
+
+/*exercicio 6*/
+
+let numbers2 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let nPar = 0;
+let nImpar = 0;
+
+for (let index = 0; index <= numbers2.length; index +=1){
+    if(numbers2[index]%2===0){
+        nPar+=1;
+        
+    };
+    
+    nImpar = index - nPar;
+    
+};
+    console.log('Par: ' + nPar);
+    console.log('Impar: ' + nImpar);
+
+/*exercicio 7*/
+
+let numbers3 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let menor = numbers3[0];
+
+    for (let index = 0; index < numbers3.length; index +=1){
+        if(menor > numbers3[index]){
+            menor = numbers3[index];
+        };
+    };
+    console.log('Menor valor: ' + menor);
+
+    /*exercicio 8*/
+
+    
