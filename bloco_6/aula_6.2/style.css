@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+#title {
+    top: 0px;
+
+}
+
+#color-palette{
+    display: block;
+    padding: 5px;
+}
+
+.color {
+    margin: 1px;
+    width: 40px;
+    height: 40px;
+    color:blue;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#clear-board{
+    margin-bottom: 9px;
+}
+
+.linha {
+    line-height: 0;
+}
+
+.pixel {
+    display: inline-block;
+    border: solid 1px black;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin: 1px;
+}

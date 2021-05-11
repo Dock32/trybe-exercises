@@ -1,0 +1,38 @@
+div {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  }
+  
+  #black {
+  background-color: black;
+  border: black solid 1px;
+  }
+  
+  #red {
+  background-color: red;
+  border: black solid 1px;
+  }
+  
+  #blue {
+  background-color: blue;
+  border: black solid 1px;
+  }
+  
+  #green {
+  background-color: green;
+  border: black solid 1px;
+  }
+  
+  .pixel {
+      width: 40px;
+      height: 40px;
+      border: solid black 1px;
+      float: left;
+      background-color: white;
+  }
+  
+  #pixel-board {
+      width: 250px;
+      height: 250px;
+  } 
